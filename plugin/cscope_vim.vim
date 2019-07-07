@@ -5,6 +5,8 @@ let g:cscope_vim_level_limit = 4
 
 " store content
 let s:buffer = ''
+"let s:db_path = expand('<sfile>:p:h')
+let s:db_path = getcwd()
 
 python3 << EOF
 import sys

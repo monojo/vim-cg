@@ -163,7 +163,8 @@ def func_referers_git_grep(name):
 
 cscope_warned = False
 
-db_path ='/home/monojo/.vim/cscope_db/cscope.out'
+# db_path ='/home/monojo/.vim/cscope_db/cscope.out'
+db_path = vim.eval("s:db_path") + "/cscope.out"
 def func_referers_cscope(name):
     global cscope_warned
     if not os.path.isfile(db_path):
