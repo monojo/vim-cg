@@ -1,4 +1,4 @@
-# Simple Call graph based on cscope
+# Function Call relations based on cscope
 ---
 
 ## Introduction
@@ -26,4 +26,4 @@ vim. Put it at the root of the project.
 - Non editable
 - Jumpable
 - When hit on ..., let it show more content.
-- Manage cscope database 
+- Manage cscope database
